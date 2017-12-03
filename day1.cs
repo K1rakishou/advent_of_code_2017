@@ -5,6 +5,7 @@ namespace andventOfCode {
     internal class DayOne : Puzzle {
         
         public void run() {
+            Console.WriteLine("Day One");
             PuzzleOne();
             PuzzleTwo();
         }
@@ -33,7 +34,7 @@ namespace andventOfCode {
                 }
             }
 
-            Console.WriteLine(result);
+            Console.WriteLine(String.Format("Puzzle One Answer: {0}", result));
         }
 
         private void PuzzleTwo() {
@@ -51,7 +52,7 @@ namespace andventOfCode {
                 }
             }
 
-            Console.WriteLine(result);
+            Console.WriteLine(String.Format("Puzzle Two Answer: {0}", result));
         }
     }
 }

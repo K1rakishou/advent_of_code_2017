@@ -5,6 +5,7 @@ using System.Runtime.InteropServices.ComTypes;
 namespace andventOfCode {
     public class DayTwo : Puzzle {
         public void run() {
+            Console.WriteLine("Day Two");
             PuzzleOne();
             PuzzleTwo();
         }
@@ -42,7 +43,7 @@ namespace andventOfCode {
                 checksum += (maxValue - minValue);
             }
 
-            Console.WriteLine(checksum);
+            Console.WriteLine(String.Format("Puzzle One Answer: {0}", checksum));
         }
 
         private void PuzzleTwo() {
@@ -73,7 +74,7 @@ namespace andventOfCode {
                 checksum += calcChecksum(numbers);
             }
 
-            Console.WriteLine(checksum);
+            Console.WriteLine(String.Format("Puzzle Two Answer: {0}", checksum));
         }
         
         private int calcChecksum(List<int> numbers) {

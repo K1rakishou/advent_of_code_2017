@@ -5,8 +5,9 @@ namespace andventOfCode {
         public static void Main(string[] args) {
             new DayOne().run();
             new DayTwo().run();
+            new DayThree().run();
             
-            Console.WriteLine();
+            Console.WriteLine("Bye");
         }
     }
 }

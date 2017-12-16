@@ -18,6 +18,7 @@ namespace andventOfCode {
             new DayThirteen().run();
             new DayFourteen().run();
             new DayFifteen().run();
+            new DaySixteen().run();
 
             Console.ReadKey(true);
         }
